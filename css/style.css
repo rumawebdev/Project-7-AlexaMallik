@@ -1,0 +1,1811 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+/* =====================================================================
+==========================banner-part start=============================
+======================================================================*/
+#banner-part nav{
+    width: 100%;
+    margin-bottom: 300px;
+}
+#banner-part nav .logo{
+    width: 30%;
+    float: left;
+}
+#banner-part nav .manu{
+    width: 70%;
+    float: left;
+}
+#banner-part nav .manu ul li{
+    display: inline-block;
+    background: transparent;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 25px;
+    font-weight: 500;
+    color: #111111;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    transition: .4s;
+
+}
+#banner-part nav .manu ul li:after{
+    width: 20px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    bottom: -5px;
+    left: 5px;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#banner-part nav .manu ul li:hover:after{
+    opacity: 1;
+}
+#banner-part nav .manu ul{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+}
+#banner-part{
+    width: 100%;
+    background: url(../images/banner-3.png) no-repeat center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    position: relative;
+}
+#banner-part h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #111111;
+    margin-top: -60px;
+    font-family: 'Raleway', sans-serif;
+}
+#banner-part h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #111111;
+}
+#banner-part p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#banner-part .round{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    border: 15px solid #b4b4b4;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    
+}
+#banner-part .round .img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#banner-part .round .img img{
+    margin-top: 15px;
+}
+#banner-part .round .icons i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #444444;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #444444;
+    position: relative;
+    transition: .4s;
+}
+#banner-part .round .icons .icon-1{
+    position: absolute;
+    top: 200px;
+    left: -85px;
+}
+#banner-part .round .icons .icon-2{
+    position: absolute;
+    top: 270px;
+    left: 0;
+}
+#banner-part .round .icons .icon-3{
+    position: absolute;
+    top: 300px;
+    left: 90px;
+}
+#banner-part .round .icons .icon-4{
+    position: absolute;
+    top: 270px;
+    left: 190px;
+}
+#banner-part .round .icons .icon-5{
+    position: absolute;
+    top: 200px;
+    left: 270px;
+}
+#banner-part .round .icons i:hover{
+    background: #444444;
+    color: #fff;
+}
+/* =====================================================================
+==========================banner-part end===============================
+======================================================================*/
+
+/* =====================================================================
+==========================aboutme-part start============================
+======================================================================*/
+#aboutme-part{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    position: relative;
+}
+#aboutme-part:after{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    content: "";
+    background: #000000;
+}
+#aboutme-part:before{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 15px;
+    content: "";
+    background: #000000;
+}
+#aboutme-part h2:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#aboutme-part h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #111111;
+    text-align: center;
+}
+#aboutme-part .img{
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+
+}
+#aboutme-part .text{
+    width: 56%;
+    float: left;
+    margin-top: 100px;
+}
+#aboutme-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 40px;
+    margin-left: 35px;
+    width: 101%;
+}
+#aboutme-part .text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 60px;
+    margin-left: 35px;
+    width: 101%;
+}
+#aboutme-part .text .item{
+    margin-left: 70px;
+}
+#aboutme-part .text .item ul1{
+    margin-right: 100%;
+}
+#aboutme-part .text .item ul1 li1{
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-right: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul1 li2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul1 li3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul2{
+    margin-right: 100%;
+}
+#aboutme-part .text .item ul2 li1{
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-right: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul2 li2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul2 li3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul3{
+    margin-right: 100%;
+}
+#aboutme-part .text .item ul3 li1{
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-right: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul3 li2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul3 li3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul4{
+    margin-right: 100%;
+}
+#aboutme-part .text .item ul4 li1{
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-right: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul4 li2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul4 li3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul5{
+    margin-right: 100%;
+}
+#aboutme-part .text .item ul5 li1{
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-right: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul5 li2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul5 li3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul6 li1{
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-right: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul6 li2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part .text .item ul6 li3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#aboutme-part a1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background: #fff;
+    border: 2px solid #444444;
+    color: #111111;
+    padding: 25px 70px;
+    margin-left: 512px;
+    margin-top: 50px;
+    transition: .4s;
+}
+#aboutme-part a2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background: #fff;
+    border: 2px solid #444444;
+    color: #111111;
+    padding: 25px 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+    transition: .4s;
+}
+#aboutme-part a1:hover{
+    background: #444444;
+    color: #fff;
+}
+#aboutme-part a2:hover{
+    background: #444444;
+    color: #fff;
+}
+/* =====================================================================
+==========================aboutme-part end==============================
+======================================================================*/
+
+/* =====================================================================
+===========================service-part start===========================
+======================================================================*/
+#service-part{
+    width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+}
+#service-part:after{
+    width: 100%;
+    height: 1px;
+    background: #bbbbbb;
+    position: absolute;
+    top: 57%;
+    left: 0;
+    transform: translateY(-57%);
+    content: "";
+    z-index: -1;
+}
+#service-part h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+#service-part .title{
+    position: relative;
+}
+#service-part .title:after{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    content: "";
+    background: #000000;
+}
+#service-part .title:before{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 15px;
+    content: "";
+    background: #000000;
+}
+#service-part h2:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#service-part .item{
+    width: 24%;
+    margin: 0 5px;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+}
+#service-part .item h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#service-part .item .round{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #bbbbbb;
+    margin: 20px auto;
+    position: relative;
+    background: #ffff;
+}
+#service-part .item .round img{
+    margin-top: 15px;
+}
+#service-part .item .details{
+    background: #f1f1f1;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    position: relative;
+    border: 2px solid #f1f1f1;
+}
+#service-part .item .details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#service-part .item .details .shape{
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+/* =====================================================================
+===========================service-part end=============================
+======================================================================*/
+
+/* =====================================================================
+========================qualifacation-part start========================
+======================================================================*/
+#qualifacation-part{
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+#qualifacation-part .title{
+    text-align: center;
+    position: relative;
+}
+#qualifacation-part .title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 100px;
+}
+#qualifacation-part .title::after{
+    width: 350px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#qualifacation-part .title::before{
+    width: 1px;
+    height: 15px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#qualifacation-part .title h2:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#qualifacation-part .item{
+    width: 100%;
+}
+
+#qualifacation-part .item .left{
+    width: 25%;
+    background: #f1f1f1;
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+    padding: 30px;
+    position: relative;
+    margin-left: 36px;
+    margin-top: 22px;
+    border: 2px solid #f1f1f1;
+}
+#qualifacation-part .item .left h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#qualifacation-part .item .left h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+#qualifacation-part .item .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#qualifacation-part .item .left .shape{
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%) rotate(45deg);
+}
+#qualifacation-part .item .middle{
+    width: 30%;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+#qualifacation-part .item .middle:after{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background: #bbbbbb;
+    content: "";
+    z-index: -1;
+}
+#qualifacation-part .item .middle:before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 100%;
+    background: #bbbbbb;
+    content: "";
+    z-index: -1;
+}
+#qualifacation-part .item .middle .round{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #dddddd;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#qualifacation-part .item .middle .round-1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background:#fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 120px;
+    border: 1px solid #bbbbbb;
+    
+}
+#qualifacation-part .item .middle .round-1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+#qualifacation-part .item .middle .round-2{   
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:#000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 30px;
+}
+#qualifacation-part .item .middle .round-2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffff;
+}
+#qualifacation-part .item .middle .round-3{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background:#fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 120px;
+    border: 1px solid #bbbbbb;
+}
+#qualifacation-part .item .middle .round-3 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+#qualifacation-part .item .middle .round-6{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background:#000;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 120px;
+    border: 1px solid #000000;
+}
+#qualifacation-part .item .middle .round-6 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+#qualifacation-part .item .middle .round-4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #dddddd;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#qualifacation-part .item .middle .round-7{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background:#000;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 120px;
+    border: 1px solid #000000;
+    
+}
+#qualifacation-part .item .middle .round-7 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+#qualifacation-part .item .right{
+    width: 25%;
+    background: #f1f1f1;
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+    padding: 30px;
+    position: relative;
+    margin-top: 22px;
+    border: 2px solid #f1f1f1;
+}
+#qualifacation-part .item .right h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#qualifacation-part .item .right h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+#qualifacation-part .item .right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#qualifacation-part .item .right .shape{
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+/* =====================================================================
+=====================qualifacation-part end=============================
+======================================================================*/
+
+/* =====================================================================
+==========================porfolio-part start===========================
+======================================================================*/
+#portfolio-part{
+    width: 100%;
+    margin-top: -240px;
+}
+#portfolio-part .title{
+    position: relative;
+}
+#portfolio-part .title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+#portfolio-part .title:after{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    content: "";
+    background: #000000;
+}
+#portfolio-part .title:before{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 15px;
+    content: "";
+    background: #000000;
+}
+#portfolio-part h2:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#portfolio-part .box{
+    width: 650px;
+    margin: 0 auto;
+}
+#portfolio-part .box ul li1{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 15px;
+}
+#portfolio-part .box ul li1 .round{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    bottom: -22px;
+    left: 6px;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li1::after{
+    position: absolute;
+    bottom: -10px;
+    left: -15px;
+    width: 52px;
+    height: 1px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li1::before{
+    position: absolute;
+    bottom: -15px;
+    left: 9px;
+    width: 1px;
+    height: 5px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li2{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 15px;
+}
+#portfolio-part .box ul li2 .round{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    bottom: -22px;
+    left: 41px;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li2::after{
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: 52px;
+    height: 1px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li2::before{
+    position: absolute;
+    bottom: -15px;
+    left: 44px;
+    width: 1px;
+    height: 5px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li3{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 15px;
+}
+#portfolio-part .box ul li3 .round{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    bottom: -22px;
+    left: 47px;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li3::after{
+    position: absolute;
+    bottom: -10px;
+    left: 25px;
+    width: 52px;
+    height: 1px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li3::before{
+    position: absolute;
+    bottom: -15px;
+    left: 50px;
+    width: 1px;
+    height: 5px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li4{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 15px;
+}
+#portfolio-part .box ul li4 .round{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    bottom: -22px;
+    left: 52px;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li4::after{
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+    width: 52px;
+    height: 1px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li4::before{
+    position: absolute;
+    bottom: -15px;
+    left: 55px;
+    width: 1px;
+    height: 5px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li5{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 15px;
+}
+#portfolio-part .box ul li5 .round{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    bottom: -22px;
+    left: 41px;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li5::after{
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: 52px;
+    height: 1px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li5::before{
+    position: absolute;
+    bottom: -15px;
+    left: 44px;
+    width: 1px;
+    height: 5px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li6{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 15px;
+}
+#portfolio-part .box ul li6 .round{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    bottom: -22px;
+    left: 12px;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li6::after{
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    width: 52px;
+    height: 1px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li6::before{
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    width: 1px;
+    height: 5px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li7{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 15px;
+}
+#portfolio-part .box ul li7 .round{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    bottom: -22px;
+    left: 25px;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li7::after{
+    position: absolute;
+    bottom: -10px;
+    left: 4px;
+    width: 52px;
+    height: 1px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .box ul li7::before{
+    position: absolute;
+    bottom: -15px;
+    left: 28px;
+    width: 1px;
+    height: 5px;
+    background: #000000;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .portfolio-img-1{
+    width: 20%;
+    margin-top: 80px;
+    float: left;
+}
+#portfolio-part .portfolio-img-1 img{
+    width: 100%;
+}
+#portfolio-part .portfolio-img-2{
+    width: 20%;
+    margin-top: 80px;
+    float: left;
+}
+#portfolio-part .portfolio-img-2 img{
+    width: 100%;
+}
+#portfolio-part .portfolio-img-3{
+    width: 20%;
+    margin-top: 60px;
+    float: left;
+}
+#portfolio-part .portfolio-img-3 img{
+    width: 100%;
+}
+#portfolio-part .portfolio-img-4{
+    width: 20%;
+    margin-top: 80px;
+    float: left;
+}
+#portfolio-part .portfolio-img-4 img{
+    width: 100%;
+}
+#portfolio-part .portfolio-img-5{
+    width: 20%;
+    float: left;
+    margin-top: 80px;
+    float: left;
+}
+#portfolio-part .portfolio-img-5 img{
+    width: 100%;
+}
+#portfolio-part .box ul li1:hover .round{
+    opacity: 1;
+}
+#portfolio-part .box ul li1:hover::after{
+    opacity: 1;
+}
+#portfolio-part .box ul li1:hover::before{
+    opacity: 1;
+}
+#portfolio-part .box ul li2:hover .round{
+    opacity: 1;
+}
+#portfolio-part .box ul li2:hover::after{
+    opacity: 1;
+}
+#portfolio-part .box ul li2:hover::before{
+    opacity: 1;
+}
+#portfolio-part .box ul li3:hover .round{
+    opacity: 1;
+}
+#portfolio-part .box ul li3:hover::after{
+    opacity: 1;
+}
+#portfolio-part .box ul li3:hover::before{
+    opacity: 1;
+}
+#portfolio-part .box ul li4:hover .round{
+    opacity: 1;
+}
+#portfolio-part .box ul li4:hover::after{
+    opacity: 1;
+}
+#portfolio-part .box ul li4:hover::before{
+    opacity: 1;
+}
+#portfolio-part .box ul li5:hover .round{
+    opacity: 1;
+}
+#portfolio-part .box ul li5:hover::after{
+    opacity: 1;
+}
+#portfolio-part .box ul li5:hover::before{
+    opacity: 1;
+}
+#portfolio-part .box ul li6:hover .round{
+    opacity: 1;
+}
+#portfolio-part .box ul li6:hover::after{
+    opacity: 1;
+}
+#portfolio-part .box ul li6:hover::before{
+    opacity: 1;
+}
+#portfolio-part .box ul li7:hover .round{
+    opacity: 1;
+}
+#portfolio-part .box ul li7:hover::after{
+    opacity: 1;
+}
+#portfolio-part .box ul li7:hover::before{
+    opacity: 1;
+}
+/* =====================================================================
+==========================porfolio-part end=============================
+======================================================================*/
+
+/* =====================================================================
+======================testimonial-part start============================
+======================================================================*/
+#testimonial-part{
+    width: 100%;
+    margin-top: 100px;
+}
+#testimonial-part .title{
+    text-align: center;
+    position: relative;
+}
+#testimonial-part .title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 100px;
+}
+#testimonial-part .title::after{
+    width: 100px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#testimonial-part .title::before{
+    width: 1px;
+    height: 15px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#testimonial-part .title h2:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#testimonial-part .item .left{
+    width: 45%;
+    background: #f1f1f1;
+    float: left;
+    margin-right: 75px;
+    margin-left: 35px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-left: 100px;
+    position: relative;
+    border: 2px solid #f1f1f1;
+}
+#testimonial-part .item .left .img{
+    width: 100px;
+    height: 100px;
+    background: #dddddd;
+    overflow: hidden;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+#testimonial-part .item .left .img img{
+    margin-top: -30px;
+    margin-left: -15px;
+}
+#testimonial-part .item .left h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#testimonial-part .item .left .star{
+    margin: 5px 0;
+}
+#testimonial-part .item .left h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#testimonial-part .item .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#testimonial-part .item .right{
+    width: 45%;
+    background: #f1f1f1;
+    float: left;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    position: relative;
+    border: 2px solid #f1f1f1;
+
+}
+#testimonial-part .item .right h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#testimonial-part .item .right .star{
+    margin: 5px 0;
+}
+#testimonial-part .item .right h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#testimonial-part .item .right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#testimonial-part .item .right .img{
+    width: 100px;
+    height: 100px;
+    background: #dddddd;
+    overflow: hidden;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+#testimonial-part .item .right .img img{
+    margin-top: 5px;
+    margin-left: -15px;
+}
+/* =====================================================================
+=======================testimonial-part end=============================
+======================================================================*/
+
+/* =====================================================================
+=========================my skill-part start============================
+======================================================================*/
+#my-skill-part{
+    margin-bottom: 100px;
+    margin-top: -105px;
+}
+#my-skill-part .title{
+    position: relative;
+}
+#my-skill-part .title h2{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+#my-skill-part .title:after{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    content: "";
+    background: #000000;
+}
+#my-skill-part .title:before{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 15px;
+    content: "";
+    background: #000000;
+}
+#my-skill-part h2:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#my-skill-part .left{
+    width: 58%;
+    float: left;
+    position: relative;
+}
+#my-skill-part .left img{
+    width: 100%;
+}
+#my-skill-part .left .overlay-1{
+    width: 100%;
+    height: 405px;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: .6;
+}
+#my-skill-part .left .overlay-2{
+    width: 100%;
+    height: 405px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 1;
+}
+#my-skill-part .left .overlay-2 i{
+    color: #ffff;
+    border: 2px solid #ffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 165px;
+}
+#my-skill-part .left .overlay-2 h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffff;
+    margin-top: 30px;
+}
+#my-skill-part .right{
+    width: 42%;
+    float: left;
+}
+#my-skill-part .right img{
+    margin-left: 20px;
+}
+/* =====================================================================
+==========================my skill-part end=============================
+======================================================================*/
+
+/* =====================================================================
+==========================pricing-part start============================
+======================================================================*/
+#pricing-part{
+    width: 100%;
+}
+#pricing-part .title{
+    text-align: center;
+    position: relative;
+}
+#pricing-part .title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 100px;
+}
+#pricing-part .title::after{
+    width: 100px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#pricing-part .title::before{
+    width: 1px;
+    height: 15px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#pricing-part .title h2:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+#pricing-part .item{
+    width: 33%;
+    background: #f1f1f1;
+    float: left;
+    margin-bottom: 100px;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    transition: .4s;
+}
+#pricing-part .item .black{
+    width: 100%;
+    height: 115px;
+    background: #444444;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: inherit;
+    transition: .4s;
+}
+#pricing-part .item .black h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    color: #444444;
+    background: #f1f1f1;
+    padding: 12px 120px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#pricing-part .item .shape{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#pricing-part .item .shape h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 20px;
+    
+}
+#pricing-part .item .shape p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    
+}
+#pricing-part .item ul{
+    text-align: center;
+}
+#pricing-part .item ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 35px;
+}
+#pricing-part .item h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 12px 120px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 2px solid #444444;
+    margin-top: 35px;
+    transition: .4s;
+}
+#pricing-part .item h4:hover{
+    background: #444444;
+    color: #fff;
+}
+#pricing-part .item:hover h4{
+    background: #444444;
+    color: #fff;
+}
+/* =====================================================================
+===========================pricing-part end=============================
+======================================================================*/
+
+/* =====================================================================
+==========================footer-part start=============================
+======================================================================*/
+footer{
+    width: 100%;
+    background: #444444;
+}
+footer .title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    position: relative;
+}
+footer .title:after{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 1px;
+    content: "";
+    background: #ffffff;
+}
+footer .title:before{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 15px;
+    content: "";
+    background: #ffffff;
+}
+footer .title h2:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    position: absolute;
+    top: 124px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+footer .title{
+    text-align: center;
+    position: relative;
+}
+footer .item-1{
+    width: 18%;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-left: 115px;
+}
+footer .item-1 i{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #ffff;
+    color: #444444;
+}
+footer .item-1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 65px;
+    color: #e8e8e8;
+}
+footer .item-2{
+    width: 24%;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-left: 115px;
+}
+footer .item-2 i{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #ffff;
+    color: #444444;
+}
+footer .item-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 65px;
+    color: #e8e8e8;
+}
+footer .item-3{
+    width: 18%;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-left: 115px;
+}
+footer .item-3 i{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #ffff;
+    color: #444444;
+}
+footer .item-3 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 65px;
+    color: #e8e8e8;
+}
+footer h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 65px;
+}
+footer .icon{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 435px;
+}
+footer .icon i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    background: #444444;
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 5px;
+    transition: .4s;
+}
+footer .icon i:hover{
+    background: #fff;
+    color: #444444;
+}
+footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+footer .copyright p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #444444;
+}
+/* =====================================================================
+==========================footer-part end===============================
+======================================================================*/
